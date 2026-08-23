@@ -22,30 +22,21 @@ Nasceu de uma frustração real com ferramentas como o Notion na hora de lidar c
 
 Não há instalação, build ou dependências.
 
-1. Baixe o arquivo [`pauta.html`](./pauta.html).
-2. Abra ele com duplo clique no seu navegador (Chrome, Firefox, Edge, Safari...).
-3. Pronto — comece a criar suas tarefas.
+1. Baixe o repositório (em zip ou com git clone) 
+2. Clique em [`index.html`](./index.html) e comece a usar
 
 > ⚠️ Como os dados ficam salvos no `localStorage` daquele navegador específico, abrir o arquivo em outro computador ou navegador começa com a lista vazia. Não há sincronização entre dispositivos.
 
-### Hospedar como site (opcional)
-
-Se preferir acessar por uma URL em vez de abrir o arquivo localmente, basta publicar o `pauta.html` em qualquer serviço de hospedagem estática, por exemplo:
-
-- **GitHub Pages** — habilite em *Settings → Pages* apontando para a branch/pasta onde está o arquivo.
-- **Netlify / Vercel** — arraste a pasta do projeto para o deploy manual.
-
-Como o app não tem backend, qualquer hospedagem de arquivos estáticos funciona.
 
 ## 🗂️ Estrutura do projeto
 
 ```
 .
-├── pauta.html   # aplicação completa (HTML + CSS + JS em um único arquivo)
+├── index.html
+├── script.js
+├── styles.css
 └── README.md
 ```
-
-Tudo — marcação, estilos e lógica — vive em um único arquivo autocontido, sem build step.
 
 ## 🛠️ Tecnologias
 
@@ -72,6 +63,3 @@ Cada tarefa (e cada etapa) pode ter `repeat` igual a `none`, `daily` ou `weekly`
 
 Sugestões e contribuições são bem-vindas — abra uma *issue* ou um *pull request*.
 
-## 📄 Licença
-
-Distribua e use livremente. Se quiser, adicione aqui a licença de sua preferência (ex: [MIT](https://choosealicense.com/licenses/mit/)).
