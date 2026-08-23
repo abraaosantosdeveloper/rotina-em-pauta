@@ -1,4 +1,4 @@
-# 📋 Pauta
+# 📋 Rotina em Pauta
 
 Um app de tarefas simples, rápido e visualmente cuidado — feito para organizar a faculdade e o dia a dia sem a fricção de ferramentas mais pesadas. Roda 100% no navegador, sem servidor, sem cadastro e sem depender de internet para funcionar.
 
